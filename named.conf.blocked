@@ -1,0 +1,29 @@
+zone "tiktok.com" {
+        type master;
+        file "/etc/bind/db.blocked";
+};
+
+zone "facebook.com" {
+        type master;
+        file "/etc/bind/db.blocked";
+};
+
+zone "cdninstagram.com" {
+        type master;
+        file "/etc/bind/db.blocked";
+};
+
+zone "instagram.com" {
+        type master;
+        file "/etc/bind/db.blocked";
+};
+
+zone "snapchat.com" {
+        type master;
+        file "/etc/bind/db.blocked";
+};
+
+zone "akamaiedge.net" {
+        type master;
+        file "/etc/bind/db.blocked";
+};
